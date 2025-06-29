@@ -2,6 +2,10 @@
 
 A Python script to automatically fetch and extract end-semester results from the DSCE (Dayananda Sagar College of Engineering) results. It downloads result using USNs, extracts SGPA, student names, and roll numbers, and saves the data into a clean CSV file.
 
+All the results are updated in this google sheets (manually):
+```
+https://docs.google.com/spreadsheets/d/1MTksbym9aa_wJwb9xKR9dseOHTrqTFiJHfzp3wT-UBY/edit?usp=sharing
+```
 ---
 
 ## 📌 Features
@@ -18,9 +22,9 @@ A Python script to automatically fetch and extract end-semester results from the
 Create a file called `roll.txt` in the same directory with one USN per line:
 
 ```
-1DS20CS001
-1DS20CS002
-1DS20CS003
+1DS23CS001
+1DS23CS002
+1DS23CS003
 ...
 ```
 ---
@@ -42,9 +46,13 @@ python results_scraper.py
 ```
 
 It will:
+
 Read USNs from roll.txt
+
 Fetch each student's result as a PDF but wont download any pdf on you local machine.
+
 Extract SGPA, Name, and USN
+
 Save the data to exam_results_sem3.csv
 
 ---
@@ -55,15 +63,20 @@ The script generates a file:
 exam_results_sem3.csv
 ```
 With columns:
+
 USN / Roll No
+
 Name of the Student
+
 SGPA
 
 ---
 
-## ⚠️Disclaimer
+## ⚠️ Disclaimer
 This tool pulls data from a public-facing DSCE IP.
+
 Use only for personal, academic, or authorized purposes.
+
 DSCE may change their server IP or PDF format, which could break the script.
 
 ---
