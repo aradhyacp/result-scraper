@@ -3,9 +3,9 @@
 A Python script to automatically fetch and extract end-semester results from the DSCE (Dayananda Sagar College of Engineering) results. It downloads result using USNs, extracts SGPA, student names, and roll numbers, and saves the data into a clean CSV file.
 
 All the results are updated in this google sheets (manually):
-```
+
 https://docs.google.com/spreadsheets/d/1MTksbym9aa_wJwb9xKR9dseOHTrqTFiJHfzp3wT-UBY/edit?usp=sharing
-```
+
 ---
 
 ## 📌 Features
